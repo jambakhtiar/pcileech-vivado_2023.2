@@ -1,0 +1,103 @@
+module pcileech_bar_impl_dvb_adapter_64bit(
+    input               rst,
+    input               clk,
+    // incoming BAR writes:
+    input [63:0]        wr_addr,
+    input [7:0]         wr_be,
+    input [63:0]        wr_data,
+    input               wr_valid,
+    // incoming BAR reads:
+    input  [87:0]       rd_req_ctx,
+    input  [63:0]       rd_req_addr,
+    input               rd_req_valid,
+    input  [63:0]       base_address_register,
+    // outgoing BAR read replies:
+    output reg [87:0]   rd_rsp_ctx,
+    output reg [63:0]   rd_rsp_data,
+    output reg          rd_rsp_valid
+);
+
+    reg [87:0]      drd_req_ctx;
+    reg [63:0]      drd_req_addr;
+    reg             drd_req_valid;
+
+    reg [63:0]      dwr_addr;
+    reg [63:0]      dwr_data;
+    reg             dwr_valid;
+
+    // Registers
+    reg [63:0]      status_reg;
+    reg [63:0]      control_reg;
+    reg [63:0]      lnb_power_reg;
+    reg [63:0]      modulation_reg;
+    reg [63:0]      symbol_rate_reg;
+    reg [63:0]      frequency_reg;
+    reg [63:0]      version_reg;
+    reg [63:0]      interrupt_status_reg;
+    reg [63:0]      interrupt_enable_reg;
+    reg [63:0]      serial_number_reg;
+    reg [63:0]      temperature_reg;
+    reg [63:0]      fan_speed_reg;
+
+    // Initialize registers
+    always @ (posedge clk) begin
+        if (rst) begin
+            status_reg           <= 64'h0000000000000000;
+            control_reg          <= 64'h0000000000000000;
+            lnb_power_reg        <= 64'h0000000000000000;
+            modulation_reg       <= 64'h0000000000000000;
+            symbol_rate_reg      <= 64'h0000000000000000;
+            frequency_reg        <= 64'h0000000000000000;
+            version_reg          <= 64'h0000000000000014; // Version 1.4
+            interrupt_status_reg <= 64'h0000000000000000;
+            interrupt_enable_reg <= 64'h0000000000000000;
+            serial_number_reg    <= 64'h0000023102200020; // Serial number: 23130220000020
+            temperature_reg      <= 64'd35;               // Temperature in degrees Celsius
+            fan_speed_reg        <= 64'd3500;             // Fan speed in RPM
+        end else begin
+            drd_req_ctx     <= rd_req_ctx;
+            drd_req_valid   <= rd_req_valid;
+            dwr_valid       <= wr_valid;
+            drd_req_addr    <= rd_req_addr;
+            rd_rsp_ctx      <= drd_req_ctx;
+            rd_rsp_valid    <= drd_req_valid;
+            dwr_addr        <= wr_addr;
+            dwr_data        <= wr_data;
+
+            if (drd_req_valid) begin
+                case (drd_req_addr - base_address_register)
+                    16'h0000 : rd_rsp_data <= status_reg;            // Status Register
+                    16'h0008 : rd_rsp_data <= control_reg;           // Control Register
+                    16'h0010 : rd_rsp_data <= version_reg;           // Version Register
+                    16'h0018 : rd_rsp_data <= lnb_power_reg;         // LNB Power Register
+                    16'h0020 : rd_rsp_data <= modulation_reg;        // Modulation Register
+                    16'h0028 : rd_rsp_data <= symbol_rate_reg;       // Symbol Rate Register
+                    16'h0030 : rd_rsp_data <= frequency_reg;         // Frequency Register
+                    16'h0038 : rd_rsp_data <= interrupt_status_reg;  // Interrupt Status Register
+                    16'h0040 : rd_rsp_data <= interrupt_enable_reg;  // Interrupt Enable Register
+                    16'h0048 : rd_rsp_data <= serial_number_reg;     // Serial Number Register
+                    16'h0050 : rd_rsp_data <= temperature_reg;       // Temperature Register
+                    16'h0058 : rd_rsp_data <= fan_speed_reg;         // Fan Speed Register
+                    default  : rd_rsp_data <= 64'hDEADBEEFDEADBEEF;  // Default value: 0xDEADBEEFDEADBEEF
+                endcase
+            end else if (dwr_valid) begin
+                case (dwr_addr - base_address_register)
+                    16'h0008 : control_reg <= dwr_data;              // Write to Control Register
+                    16'h0018 : lnb_power_reg <= dwr_data;            // Write to LNB Power Register
+                    16'h0020 : modulation_reg <= dwr_data;           // Write to Modulation Register
+                    16'h0028 : symbol_rate_reg <= dwr_data;          // Write to Symbol Rate Register
+                    16'h0030 : frequency_reg <= dwr_data;            // Write to Frequency Register
+                    16'h0040 : interrupt_enable_reg <= dwr_data;     // Write to Interrupt Enable Register
+                    16'h0048 : serial_number_reg <= dwr_data;        // Write to Serial Number Register
+                    16'h0050 : temperature_reg <= dwr_data;          // Write to Temperature Register
+                    16'h0058 : fan_speed_reg <= dwr_data;            // Write to Fan Speed Register
+                    default  : ; // No action for other addresses
+                endcase
+            end else begin
+                rd_rsp_data <= 64'hDEADBEEFDEADBEEF;
+            end
+        end
+    end
+
+endmodule
+

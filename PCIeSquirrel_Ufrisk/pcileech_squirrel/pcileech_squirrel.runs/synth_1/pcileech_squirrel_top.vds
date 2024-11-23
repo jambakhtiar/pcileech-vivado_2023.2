@@ -1,0 +1,863 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul  3 16:08:28 2024
+# Process ID: 75929
+# Current directory: /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1
+# Command line: vivado -log pcileech_squirrel_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pcileech_squirrel_top.tcl
+# Log file: /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/pcileech_squirrel_top.vds
+# Journal file: /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 3585.834 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+source pcileech_squirrel_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1380.289 ; gain = 36.836 ; free physical = 5458 ; free virtual = 11763
+Command: read_checkpoint -auto_incremental -incremental /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/utils_1/imports/synth_1/pcileech_squirrel_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/utils_1/imports/synth_1/pcileech_squirrel_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top pcileech_squirrel_top -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 75969
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2141.848 ; gain = 406.801 ; free physical = 4312 ; free virtual = 10655
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'pcileech_squirrel_top' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_squirrel_top.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'IfComToFifo' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:19]
+INFO: [Synth 8-6155] done synthesizing module 'IfComToFifo' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:19]
+INFO: [Synth 8-6157] synthesizing module 'IfPCIeFifoCfg' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:199]
+INFO: [Synth 8-6155] done synthesizing module 'IfPCIeFifoCfg' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:199]
+INFO: [Synth 8-6157] synthesizing module 'IfPCIeFifoTlp' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:220]
+INFO: [Synth 8-6155] done synthesizing module 'IfPCIeFifoTlp' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:220]
+INFO: [Synth 8-6157] synthesizing module 'IfPCIeFifoCore' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:244]
+INFO: [Synth 8-6155] done synthesizing module 'IfPCIeFifoCore' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:244]
+INFO: [Synth 8-6157] synthesizing module 'IfShadow2Fifo' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:267]
+INFO: [Synth 8-6155] done synthesizing module 'IfShadow2Fifo' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:267]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:93059]
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:93059]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_com' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_com.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'fifo_64_64_clk2_comrx' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_64_64_clk2_comrx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_64_64_clk2_comrx' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_64_64_clk2_comrx_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_32_32_clk1_comtx' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_32_32_clk1_comtx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_32_32_clk1_comtx' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_32_32_clk1_comtx_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_256_32_clk2_comtx' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_256_32_clk2_comtx_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_256_32_clk2_comtx' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_256_32_clk2_comtx_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_ft601' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_ft601.sv:12]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_ft601.sv:139]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_ft601' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_ft601.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_com' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_com.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_fifo' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_fifo.sv:16]
+	Parameter PARAM_DEVICE_ID bound to: 4 - type: integer 
+	Parameter PARAM_VERSION_NUMBER_MAJOR bound to: 4 - type: integer 
+	Parameter PARAM_VERSION_NUMBER_MINOR bound to: 14 - type: integer 
+	Parameter PARAM_CUSTOM_VALUE bound to: -1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_34_34' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_34_34_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_34_34' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_34_34_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_mux' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_mux.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_mux' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_mux.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'fifo_64_64_clk1_fifocmd' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_64_64_clk1_fifocmd_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_64_64_clk1_fifocmd' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_64_64_clk1_fifocmd_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_fifo.sv:441]
+INFO: [Synth 8-6157] synthesizing module 'STARTUPE2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: double 
+INFO: [Synth 8-6155] done synthesizing module 'STARTUPE2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133907]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_fifo' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_fifo.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_pcie_a7' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'IfPCIeSignals' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:40]
+INFO: [Synth 8-6155] done synthesizing module 'IfPCIeSignals' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:40]
+INFO: [Synth 8-6157] synthesizing module 'IfPCIeTlpRxTx' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:300]
+INFO: [Synth 8-6155] done synthesizing module 'IfPCIeTlpRxTx' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:300]
+INFO: [Synth 8-6157] synthesizing module 'IfPCIeTlpRxTx' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:300]
+INFO: [Synth 8-6155] done synthesizing module 'IfPCIeTlpRxTx' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:300]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73785]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (0#1) [/tools/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73785]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_pcie_cfg_a7' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_64_64' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_64_64_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_64_64' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_64_64_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_32_32_clk2' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_32_32_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_32_32_clk2' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_32_32_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_pcie_cfg_a7' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_src64' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:303]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_src64' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:303]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_pcie_tlp_a7' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_bar_controller' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:42]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_bar_rdengine' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:397]
+INFO: [Synth 8-6157] synthesizing module 'fifo_74_74_clk1_bar_rd1' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_74_74_clk1_bar_rd1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_74_74_clk1_bar_rd1' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_74_74_clk1_bar_rd1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_134_134_clk1_bar_rdrsp' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_134_134_clk1_bar_rdrsp_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_134_134_clk1_bar_rdrsp' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_134_134_clk1_bar_rdrsp_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_bar_rdengine' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:397]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_bar_wrengine' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:257]
+INFO: [Synth 8-6157] synthesizing module 'fifo_141_141_clk1_bar_wr' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_141_141_clk1_bar_wr_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_141_141_clk1_bar_wr' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_141_141_clk1_bar_wr_stub.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:327]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_bar_wrengine' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:257]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_bar_impl_ar9287_wifi' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:753]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:849]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_bar_impl_ar9287_wifi' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:753]
+WARNING: [Synth 8-7071] port 'base_address_register' of module 'pcileech_bar_impl_ar9287_wifi' is unconnected for instance 'i_bar0' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:138]
+WARNING: [Synth 8-7023] instance 'i_bar0' of module 'pcileech_bar_impl_ar9287_wifi' has 13 connections declared, but only 12 given [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:138]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_bar_impl_loopaddr' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:712]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_bar_impl_loopaddr' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:712]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_bar_impl_none' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:680]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_bar_impl_none' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:680]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_bar_controller' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:42]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_cfgspace_shadow' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_cfgspace_shadow.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'fifo_49_49_clk2' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_49_49_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_49_49_clk2' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_49_49_clk2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_mem_wrap' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_cfgspace_shadow.sv:194]
+INFO: [Synth 8-6157] synthesizing module 'bram_pcie_cfgspace' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/bram_pcie_cfgspace_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bram_pcie_cfgspace' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/bram_pcie_cfgspace_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'drom_pcie_cfgspace_writemask' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/drom_pcie_cfgspace_writemask_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'drom_pcie_cfgspace_writemask' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/drom_pcie_cfgspace_writemask_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_mem_wrap' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_cfgspace_shadow.sv:194]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_cfgspace_pcie_tx' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_cfgspace_shadow.sv:147]
+INFO: [Synth 8-6157] synthesizing module 'fifo_129_129_clk1' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_129_129_clk1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_129_129_clk1' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_129_129_clk1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_cfgspace_pcie_tx' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_cfgspace_shadow.sv:147]
+INFO: [Synth 8-6157] synthesizing module 'fifo_43_43_clk2' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_43_43_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_43_43_clk2' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_43_43_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_cfgspace_shadow' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_cfgspace_shadow.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_filter' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:156]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_filter' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:156]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_dst_fifo' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:104]
+INFO: [Synth 8-6157] synthesizing module 'fifo_134_134_clk2' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_134_134_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_134_134_clk2' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_134_134_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_dst_fifo' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:104]
+INFO: [Synth 8-6157] synthesizing module 'IfAXIS128' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6155] done synthesizing module 'IfAXIS128' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:165]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_src_fifo' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:206]
+INFO: [Synth 8-6157] synthesizing module 'fifo_1_1_clk2' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_1_1_clk2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_1_1_clk2' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_1_1_clk2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fifo_134_134_clk2_rxfifo' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_134_134_clk2_rxfifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_134_134_clk2_rxfifo' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/fifo_134_134_clk2_rxfifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_src_fifo' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:206]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_sink_mux1' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:294]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_sink_mux1' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:294]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_pcie_tlp_a7' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'pcileech_tlps128_dst64' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:269]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_tlps128_dst64' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:269]
+INFO: [Synth 8-6157] synthesizing module 'pcie_7x_0' [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/pcie_7x_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcie_7x_0' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/.Xil/Vivado-75929-jam-Precision-5510/realtime/pcie_7x_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_pcie_a7' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'pcileech_squirrel_top' (0#1) [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_squirrel_top.sv:13]
+WARNING: [Synth 8-3848] Net tlps_filtered\.tready in module/entity pcileech_pcie_tlp_a7 does not have driver. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:174]
+WARNING: [Synth 8-3848] Net tlps_filtered\.has_data in module/entity pcileech_pcie_tlp_a7 does not have driver. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:175]
+WARNING: [Synth 8-3848] Net tlp_tx\.user in module/entity pcileech_tlps128_dst64 does not have driver. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_a7.sv:272]
+WARNING: [Synth 8-3848] Net tlps_rx\.tready in module/entity pcileech_pcie_a7 does not have driver. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:174]
+WARNING: [Synth 8-3848] Net tlps_rx\.has_data in module/entity pcileech_pcie_a7 does not have driver. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_header.svh:175]
+WARNING: [Synth 8-3917] design pcileech_squirrel_top has port pcie_wake_n driven by constant 1
+WARNING: [Synth 8-7129] Port tlp_tx\.user[21] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[20] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[19] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[18] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[17] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[16] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[15] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[14] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[13] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[12] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[11] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[10] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[9] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[8] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[7] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[6] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[5] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[4] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[3] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[2] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[1] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlp_tx\.user[0] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tkeepdw[0] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[8] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[7] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[6] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[5] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[4] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[3] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[2] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[1] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[0] in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.has_data in module pcileech_tlps128_dst64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[8] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[7] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[6] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[5] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[4] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[3] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[2] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tuser[1] in module pcileech_tlps128_src_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[8] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[7] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[6] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[5] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[4] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[3] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[2] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tuser[1] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tready in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.has_data in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[31] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[30] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[29] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[28] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[27] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[26] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[25] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[24] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[23] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[22] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[21] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[20] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[19] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[18] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[17] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[16] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[15] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[14] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[13] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[12] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[11] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[10] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[9] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[8] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[7] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[6] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[5] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[4] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[3] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[2] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[1] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_data[0] in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_last in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dfifo\.tx_valid in module pcileech_tlps128_dst_fifo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tready in module pcileech_tlps128_filter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.has_data in module pcileech_tlps128_filter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.tready in module pcileech_tlps128_filter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_out\.has_data in module pcileech_tlps128_filter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[95] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[94] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[93] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[92] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[91] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[90] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[89] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[88] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[87] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[86] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tlps_in\.tdata[85] in module pcileech_tlps128_cfgspace_shadow is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2296.785 ; gain = 561.738 ; free physical = 4139 ; free virtual = 10484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2308.660 ; gain = 573.613 ; free physical = 4174 ; free virtual = 10477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2308.660 ; gain = 573.613 ; free physical = 4174 ; free virtual = 10477
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.2 ; elapsed = 00:00:00.19 . Memory (MB): peak = 2308.660 ; gain = 0.000 ; free physical = 4174 ; free virtual = 10476
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/pcie_7x_0/pcie_7x_0/pcie_7x_0_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcie_7x_0'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/pcie_7x_0/pcie_7x_0/pcie_7x_0_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcie_7x_0'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/bram_pcie_cfgspace/bram_pcie_cfgspace/bram_pcie_cfgspace_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_bram_pcie_cfgspace'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/bram_pcie_cfgspace/bram_pcie_cfgspace/bram_pcie_cfgspace_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_bram_pcie_cfgspace'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2/fifo_43_43_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2/fifo_43_43_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34/fifo_34_34_in_context.xdc] for cell 'i_pcileech_fifo/i_fifo_loop_tx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34/fifo_34_34_in_context.xdc] for cell 'i_pcileech_fifo/i_fifo_loop_tx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34/fifo_34_34_in_context.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_tx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34/fifo_34_34_in_context.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_tx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx_in_context.xdc] for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx_in_context.xdc] for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_129_129_clk1/fifo_129_129_clk1/fifo_129_129_clk1_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_cfgspace_pcie_tx/i_fifo_129_129_clk1'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_129_129_clk1/fifo_129_129_clk1/fifo_129_129_clk1_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_cfgspace_pcie_tx/i_fifo_129_129_clk1'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx_in_context.xdc] for cell 'i_pcileech_com/i_fifo_32_32_clk2_comtx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx_in_context.xdc] for cell 'i_pcileech_com/i_fifo_32_32_clk2_comtx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64/fifo_64_64_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64/fifo_64_64_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2/fifo_32_32_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2/fifo_32_32_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2/fifo_49_49_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2/fifo_49_49_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx_in_context.xdc] for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx_in_context.xdc] for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd_in_context.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_rx'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd_in_context.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_rx'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2/fifo_134_134_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2/fifo_134_134_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2/fifo_1_1_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2/fifo_1_1_clk2_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_wrengine/i_fifo_141_141_clk1_bar_wr'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_wrengine/i_fifo_141_141_clk1_bar_wr'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_134_134_clk1_bar_rdrsp'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_134_134_clk1_bar_rdrsp'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_74_74_clk1_bar_rd1'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_74_74_clk1_bar_rd1'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/drom_pcie_cfgspace_writemask/drom_pcie_cfgspace_writemask/drom_pcie_cfgspace_writemask_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_drom_pcie_cfgspace_writemask'
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/drom_pcie_cfgspace_writemask/drom_pcie_cfgspace_writemask/drom_pcie_cfgspace_writemask_in_context.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_drom_pcie_cfgspace_writemask'
+Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/user_lnk_up_int_reg/C'. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc:89]
+WARNING: [Vivado 12-508] No pins matched 'i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/user_reset_out_reg/C'. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc:90]
+Finished Parsing XDC File [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/pcileech_squirrel_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/pcileech_squirrel_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/pcileech_squirrel_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2447.441 ; gain = 0.000 ; free physical = 4172 ; free virtual = 10509
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2447.477 ; gain = 0.000 ; free physical = 4172 ; free virtual = 10509
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_bram_pcie_cfgspace' at clock pin 'clka' is different from the actual clock period '16.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 4200 ; free virtual = 10519
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 4200 ; free virtual = 10519
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IOB = TRUE for i_pcileech_com/i_pcileech_ft601/FT601_OE_N_reg. (constraint file  /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc, line 81).
+Applied set_property IOB = TRUE for i_pcileech_com/i_pcileech_ft601/FT601_RD_N_reg. (constraint file  /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc, line 82).
+Applied set_property IOB = TRUE for i_pcileech_com/i_pcileech_ft601/FT601_WR_N_reg. (constraint file  /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc, line 83).
+Applied set_property IOB = TRUE for i_pcileech_com/i_pcileech_ft601/\FT601_DATA_OUT_reg[0] . (constraint file  /home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc, line 84).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcie_7x_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_bram_pcie_cfgspace. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_fifo/i_fifo_cmd_tx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_fifo/i_fifo_loop_tx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_com/i_fifo_64_64_clk2_comrx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_cfgspace_pcie_tx/i_fifo_129_129_clk1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_com/i_fifo_32_32_clk2_comtx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_com/i_fifo_256_32_clk2_comtx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_fifo/i_fifo_cmd_rx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_wrengine/i_fifo_141_141_clk1_bar_wr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_134_134_clk1_bar_rdrsp. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_74_74_clk1_bar_rd1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_drom_pcie_cfgspace_writemask. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 4200 ; free virtual = 10521
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pcileech_ft601'
+INFO: [Synth 8-802] inferred FSM for state register 'com_rx_valid64_dw_reg' in module 'pcileech_com'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pcileech_tlps128_bar_wrengine'
+INFO: [Synth 8-6159] Found Keep on FSM register 'state_reg' in module 'pcileech_ft601', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  iSTATE |                             0000 |                             0000
+                 iSTATE0 |                             0010 |                             0010
+                 iSTATE1 |                             0011 |                             0011
+                 iSTATE2 |                             0100 |                             0100
+                 iSTATE3 |                             0101 |                             0101
+                 iSTATE4 |                             0110 |                             0110
+                 iSTATE5 |                             0111 |                             0111
+                 iSTATE6 |                             1000 |                             1000
+                 iSTATE7 |                             1001 |                             1001
+                 iSTATE8 |                             1010 |                             1010
+                 iSTATE9 |                             1011 |                             1011
+                iSTATE10 |                             1100 |                             1100
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                              001 |                               00
+*
+                 iSTATE0 |                              010 |                               01
+                  iSTATE |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'com_rx_valid64_dw_reg' using encoding 'one-hot' in module 'pcileech_com'
+INFO: [Synth 8-6159] Found Keep on FSM register 'state_reg' in module 'pcileech_tlps128_bar_wrengine', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                  iSTATE |                             0000 |                             0000
+                 iSTATE0 |                             0001 |                             0001
+                 iSTATE1 |                             0010 |                             0010
+                 iSTATE2 |                             0100 |                             0100
+                 iSTATE3 |                             0101 |                             0101
+                 iSTATE4 |                             0110 |                             0110
+                 iSTATE5 |                             0111 |                             0111
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 4218 ; free virtual = 10544
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   65 Bit       Adders := 1     
+	   2 Input   64 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   19 Bit       Adders := 30    
+	   2 Input   12 Bit       Adders := 2     
+	   4 Input   11 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 1     
+	   3 Input   11 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 5     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 3     
+	  12 Input    4 Bit       Adders := 1     
+	   9 Input    4 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 4     
+	   3 Input    4 Bit       Adders := 2     
+	   4 Input    4 Bit       Adders := 1     
+	   5 Input    4 Bit       Adders := 1     
+	   6 Input    4 Bit       Adders := 1     
+	   7 Input    4 Bit       Adders := 1     
+	   8 Input    4 Bit       Adders := 1     
+	   4 Input    3 Bit       Adders := 1     
+	   3 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	              704 Bit    Registers := 1     
+	              256 Bit    Registers := 1     
+	              240 Bit    Registers := 1     
+	              128 Bit    Registers := 5     
+	               88 Bit    Registers := 4     
+	               86 Bit    Registers := 3     
+	               80 Bit    Registers := 1     
+	               64 Bit    Registers := 3     
+	               34 Bit    Registers := 1     
+	               32 Bit    Registers := 33    
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 3     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 27    
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 46    
++---Muxes : 
+	   2 Input  704 Bit        Muxes := 38    
+	   5 Input  704 Bit        Muxes := 2     
+	   2 Input  256 Bit        Muxes := 1     
+	   2 Input  240 Bit        Muxes := 40    
+	   4 Input  232 Bit        Muxes := 1     
+	   2 Input  129 Bit        Muxes := 1     
+	   2 Input  128 Bit        Muxes := 9     
+	   2 Input   86 Bit        Muxes := 3     
+	   3 Input   86 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 2     
+	   6 Input   64 Bit        Muxes := 1     
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 247   
+	   8 Input   32 Bit        Muxes := 1     
+	  24 Input   32 Bit        Muxes := 1     
+	   7 Input   32 Bit        Muxes := 1     
+	   2 Input   30 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 6     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 247   
+	   8 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 1     
+	  13 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 9     
+	  23 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 5     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 335   
+	   8 Input    1 Bit        Muxes := 8     
+	  12 Input    1 Bit        Muxes := 1     
+	  23 Input    1 Bit        Muxes := 1     
+	  13 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design pcileech_squirrel_top has port pcie_wake_n driven by constant 1
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_pcileech_mux/\dout_buf_data_reg[228] )
+INFO: [Synth 8-3886] merging instance 'i_pcileech_mux/dout_buf_data_reg[229]' (FDSE) to 'i_pcileech_mux/dout_buf_data_reg[230]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_mux/dout_buf_data_reg[230]' (FDSE) to 'i_pcileech_mux/dout_buf_data_reg[231]'
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_pcileech_tlps128_filter/tuser_reg' and it is trimmed from '9' to '1' bits. [/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_tlp_a7.sv:174]
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd2_pkt2_reg[74]' (FDE) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd2_pkt2_reg[75]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd2_pkt2_reg[75] )
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[63]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[63]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[64]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[64]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[65]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[65]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[66]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[66]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[67]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[67]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[68]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[68]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[69]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[69]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[70]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[70]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[71]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[71]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[72]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[72]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[74]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[74]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[75]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[75]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[76]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[76]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[77]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[77]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[78]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[78]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[79]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[79]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[80]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[80]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[81]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[81]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[82]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[82]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[83]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[83]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[84]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[84]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[85]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[85]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[0]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[1]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[2]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[3]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[4]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[5]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[6]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[48]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[49]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[49]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[50]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[50]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[51]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[51]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[52]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[52]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[53]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[53]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[54]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[54]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[55]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[55]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[32]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[32]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[33]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[33]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[34]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[34]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[35]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[35]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[36]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[36]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[37]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[37]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[38]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[38]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[39]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[39]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[40]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[40]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[41]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[41]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[42]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[42]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[43]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[43]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[44]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[44]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[45]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[45]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[46]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[46]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[47]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[47]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[24]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[24]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[24]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[25]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[25]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[25]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[26]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[26]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[26]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[27]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[27]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[27]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[28]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[28]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[28]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[29]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[29]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[29]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[30]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[30]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[30]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[30]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[30]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[31]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[31]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[31]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[16]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[16]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[16]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[17]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[17]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[17]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[18]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[18]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[18]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[19]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[19]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[19]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[20]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[20]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[20]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[21]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[21]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_ctx_reg[21]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[22]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_addr_1_reg[22]' (FD) to 'i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[22]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_filter/tkeepdw_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd2_out_data_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/drd_req_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd3_process_data_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd2_pkt2_reg[72] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_tlps128_src64/len_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd2_out_data_reg[72] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/rd3_process_data_reg[72] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_req_ctx_1_reg[72] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar1/rd_rsp_ctx_reg[72] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:02:00 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 155 ; free virtual = 4590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:02:06 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 178 ; free virtual = 4548
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:25 ; elapsed = 00:02:11 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 176 ; free virtual = 4550
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:31 ; elapsed = 00:02:17 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 168 ; free virtual = 4520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][24]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][25]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][26]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][27]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][28]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][29]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][30]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][31]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][16]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][17]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][18]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][19]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][20]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][21]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][22]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][23]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][8]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][9]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][10]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][11]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][12]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][13]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][14]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][15]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][3]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][4]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][5]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][6]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \i_pcileech_com/i_pcileech_ft601/FT601_DATA_OUT_reg[0][7]  to handle IOB=TRUE attribute
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:36 ; elapsed = 00:02:22 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 170 ; free virtual = 4513
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:36 ; elapsed = 00:02:22 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 170 ; free virtual = 4513
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:37 ; elapsed = 00:02:23 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 169 ; free virtual = 4513
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:37 ; elapsed = 00:02:23 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 169 ; free virtual = 4513
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:39 ; elapsed = 00:02:25 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 248 ; free virtual = 4592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:39 ; elapsed = 00:02:25 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 248 ; free virtual = 4592
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |fifo_64_64_clk2_comrx        |         1|
+|2     |fifo_32_32_clk1_comtx        |         1|
+|3     |fifo_256_32_clk2_comtx       |         1|
+|4     |fifo_64_64_clk1_fifocmd      |         1|
+|5     |fifo_34_34                   |         2|
+|6     |pcie_7x_0                    |         1|
+|7     |fifo_64_64                   |         1|
+|8     |fifo_32_32_clk2              |         1|
+|9     |fifo_74_74_clk1_bar_rd1      |         1|
+|10    |fifo_134_134_clk1_bar_rdrsp  |         1|
+|11    |fifo_141_141_clk1_bar_wr     |         1|
+|12    |fifo_49_49_clk2              |         1|
+|13    |fifo_43_43_clk2              |         1|
+|14    |fifo_129_129_clk1            |         1|
+|15    |bram_pcie_cfgspace           |         1|
+|16    |drom_pcie_cfgspace_writemask |         1|
+|17    |fifo_134_134_clk2            |         1|
+|18    |fifo_1_1_clk2                |         1|
+|19    |fifo_134_134_clk2_rxfifo     |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------+------+
+|      |Cell                         |Count |
++------+-----------------------------+------+
+|1     |bram_pcie_cfgspace           |     1|
+|2     |drom_pcie_cfgspace_writemask |     1|
+|3     |fifo_129_129_clk1            |     1|
+|4     |fifo_134_134_clk1_bar_rdrsp  |     1|
+|5     |fifo_134_134_clk2            |     1|
+|6     |fifo_134_134_clk2_rxfifo     |     1|
+|7     |fifo_141_141_clk1_bar_wr     |     1|
+|8     |fifo_1_1_clk2                |     1|
+|9     |fifo_256_32_clk2_comtx       |     1|
+|10    |fifo_32_32_clk1_comtx        |     1|
+|11    |fifo_32_32_clk2              |     1|
+|12    |fifo_34                      |     1|
+|13    |fifo_34_34                   |     1|
+|14    |fifo_43_43_clk2              |     1|
+|15    |fifo_49_49_clk2              |     1|
+|16    |fifo_64                      |     1|
+|17    |fifo_64_64_clk1_fifocmd      |     1|
+|18    |fifo_64_64_clk2_comrx        |     1|
+|19    |fifo_74_74_clk1_bar_rd1      |     1|
+|20    |pcie_7x                      |     1|
+|21    |BUFG                         |     2|
+|22    |CARRY4                       |   319|
+|23    |IBUFDS_GTE2                  |     1|
+|24    |LUT1                         |   140|
+|25    |LUT2                         |  1277|
+|26    |LUT3                         |  1075|
+|27    |LUT4                         |   833|
+|28    |LUT5                         |  2344|
+|29    |LUT6                         |  4245|
+|30    |MUXF7                        |   124|
+|31    |MUXF8                        |    34|
+|32    |STARTUPE2                    |     1|
+|33    |FDRE                         |  3638|
+|34    |FDSE                         |   395|
+|35    |IBUF                         |    12|
+|36    |IOBUF                        |    32|
+|37    |OBUF                         |    11|
+|38    |OBUFT                        |     4|
++------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:39 ; elapsed = 00:02:25 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 248 ; free virtual = 4592
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 83 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:37 ; elapsed = 00:02:26 . Memory (MB): peak = 2447.477 ; gain = 573.613 ; free physical = 6503 ; free virtual = 10863
+Synthesis Optimization Complete : Time (s): cpu = 00:01:43 ; elapsed = 00:02:30 . Memory (MB): peak = 2447.477 ; gain = 712.430 ; free physical = 6502 ; free virtual = 10854
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2447.477 ; gain = 0.000 ; free physical = 6502 ; free virtual = 10854
+INFO: [Netlist 29-17] Analyzing 510 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2463.449 ; gain = 0.000 ; free physical = 6502 ; free virtual = 10856
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 32 instances
+
+Synth Design complete | Checksum: 2ce0acff
+INFO: [Common 17-83] Releasing license: Synthesis
+302 Infos, 116 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:48 ; elapsed = 00:02:36 . Memory (MB): peak = 2463.484 ; gain = 1065.383 ; free physical = 6501 ; free virtual = 10855
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 8076.683; main = 1717.256; forked = 6520.263
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 13031.199; main = 2463.453; forked = 10615.770
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2487.461 ; gain = 0.000 ; free physical = 6500 ; free virtual = 10855
+INFO: [Common 17-1381] The checkpoint '/home/jam/Downloads/PCILeech_Italian/PCIeSquirrel_Ufrisk/pcileech_squirrel/pcileech_squirrel.runs/synth_1/pcileech_squirrel_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pcileech_squirrel_top_utilization_synth.rpt -pb pcileech_squirrel_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  3 16:11:20 2024...

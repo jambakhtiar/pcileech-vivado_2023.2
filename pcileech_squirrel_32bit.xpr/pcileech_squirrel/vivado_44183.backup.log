@@ -1,0 +1,625 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun  6 11:35:17 2024
+# Process ID: 44183
+# Current directory: /home/jam
+# Command line: vivado
+# Log file: /home/jam/vivado.log
+# Journal file: /home/jam/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 3233.358 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/ddbridge/ddbridge.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+false
+invalid bareword "0xx00"
+in expression "0x00 | 0xx00 | 0xFF0000";
+should be "$0xx00" or "{0xx00}" or "0xx00(...)" or ...
+invalid bareword "0xx00"
+in expression "0x00 | 0xx00 | 0xFF0000";
+should be "$0xx00" or "{0xx00}" or "0xx00(...)" or ...
+invalid bareword "0xx00"
+in expression "0x00 | 0xx00 | 0xFF0000";
+should be "$0xx00" or "{0xx00}" or "0xx00(...)" or ...
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+close_project
+open_project /home/jam/Documents/1.Freelancer/inProgress/DMACard/PCILeech/pcileech-wifi-main/pcileech_squirrel/pcileech_squirrel.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+pwd
+/home/jam
+cd /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi
+pwd
+/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi
+ls
+WARNING: [Common 17-259] Unknown Tcl command 'ls' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+build.md
+generate – 100T.bat
+generate – captain - 75T.bat
+generate – enigma - x1.bat
+generate - immmortal - 75Ts .bat
+generate – immortal - 75T.bat
+generate - m2.bat
+generate - squirrel.bat
+ip
+pcie_7x
+README.md
+src
+vivado_build_100t.tcl
+vivado_build.tcl
+vivado_generate_project_100t.tcl
+vivado_generate_project_captain_75T.tcl
+vivado_generate_project_enigma_x1.tcl
+vivado_generate_project_immortal_75Ts.tcl
+vivado_generate_project_immortal_75T.tcl
+vivado_generate_project_m2.tcl
+vivado_generate_project_squirrel.tcl
+source vivado_generate_project.tcl -notrace
+couldn't read file "vivado_generate_project.tcl": no such file or directory
+source vivado_generate_project_squirrel.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [Coretcl 2-1042] No IP was identified for upgrade.
+INFO: Project created:pcileech_squirrel
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_pcie_tlp_a7.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_pcie_a7.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_pcie_tlp_a7.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_pcie_a7.sv:]
+launch_runs synth_1 -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_134_134_clk2_rxfifo'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_134_134_clk2_rxfifo
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_1_1_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_1_1_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_134_134_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_134_134_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_43_43_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_43_43_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_129_129_clk1'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_129_129_clk1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'drom_pcie_cfgspace_writemask'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: drom_pcie_cfgspace_writemask
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_pcie_cfgspace'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bram_pcie_cfgspace
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_49_49_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_49_49_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_141_141_clk1_bar_wr'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_141_141_clk1_bar_wr
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_134_134_clk1_bar_rdrsp'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_134_134_clk1_bar_rdrsp
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_74_74_clk1_bar_rd1'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_74_74_clk1_bar_rd1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_32_32_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_32_32_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_64'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_64_64
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_64_clk1_fifocmd'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_64_64_clk1_fifocmd
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_34_34'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_34_34
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_256_32_clk2_comtx'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_256_32_clk2_comtx
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_32_32_clk1_comtx'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_32_32_clk1_comtx
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_64_clk2_comrx'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_64_64_clk2_comrx
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Thu Jun  6 13:55:20 2024] Launched bram_pcie_cfgspace_synth_1, fifo_43_43_clk2_synth_1, fifo_49_49_clk2_synth_1, fifo_64_64_synth_1, fifo_34_34_synth_1, fifo_134_134_clk1_bar_rdrsp_synth_1, fifo_1_1_clk2_synth_1, fifo_32_32_clk2_synth_1, fifo_134_134_clk2_synth_1, fifo_64_64_clk1_fifocmd_synth_1, fifo_256_32_clk2_comtx_synth_1, fifo_32_32_clk1_comtx_synth_1, fifo_129_129_clk1_synth_1, fifo_134_134_clk2_rxfifo_synth_1, fifo_64_64_clk2_comrx_synth_1, fifo_141_141_clk1_bar_wr_synth_1, drom_pcie_cfgspace_writemask_synth_1, fifo_74_74_clk1_bar_rd1_synth_1...
+Run output will be captured here:
+bram_pcie_cfgspace_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/bram_pcie_cfgspace_synth_1/runme.log
+fifo_43_43_clk2_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_43_43_clk2_synth_1/runme.log
+fifo_49_49_clk2_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_49_49_clk2_synth_1/runme.log
+fifo_64_64_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_synth_1/runme.log
+fifo_34_34_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_34_34_synth_1/runme.log
+fifo_134_134_clk1_bar_rdrsp_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_134_134_clk1_bar_rdrsp_synth_1/runme.log
+fifo_1_1_clk2_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_1_1_clk2_synth_1/runme.log
+fifo_32_32_clk2_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_32_32_clk2_synth_1/runme.log
+fifo_134_134_clk2_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_134_134_clk2_synth_1/runme.log
+fifo_64_64_clk1_fifocmd_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk1_fifocmd_synth_1/runme.log
+fifo_256_32_clk2_comtx_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_256_32_clk2_comtx_synth_1/runme.log
+fifo_32_32_clk1_comtx_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_32_32_clk1_comtx_synth_1/runme.log
+fifo_129_129_clk1_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_129_129_clk1_synth_1/runme.log
+fifo_134_134_clk2_rxfifo_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_134_134_clk2_rxfifo_synth_1/runme.log
+fifo_64_64_clk2_comrx_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk2_comrx_synth_1/runme.log
+fifo_141_141_clk1_bar_wr_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_141_141_clk1_bar_wr_synth_1/runme.log
+drom_pcie_cfgspace_writemask_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/drom_pcie_cfgspace_writemask_synth_1/runme.log
+fifo_74_74_clk1_bar_rd1_synth_1: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/fifo_74_74_clk1_bar_rd1_synth_1/runme.log
+[Thu Jun  6 13:55:25 2024] Launched synth_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 9975.484 ; gain = 350.039 ; free physical = 827 ; free virtual = 11706
+launch_runs impl_1 -jobs 4
+[Thu Jun  6 14:03:32 2024] Launched impl_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Jun  6 14:07:33 2024] Launched impl_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/runme.log
+write_cfgmem  -format bin -size 2 -interface SMAPx8 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/fim.bin"
+Command: write_cfgmem -format bin -size 2 -interface SMAPx8 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/fim.bin
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin
+ERROR: [Bitstream 40-48] File /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin has unknown file format.
+ERROR: [Writecfgmem 68-7] Could not load bitfile /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin.
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+write_cfgmem failed
+ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors.
+write_cfgmem  -format bin -size 2 -interface SPIx4 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/fim.bin"
+Command: write_cfgmem -format bin -size 2 -interface SPIx4 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/fim.bin
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin
+ERROR: [Bitstream 40-48] File /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin has unknown file format.
+ERROR: [Writecfgmem 68-7] Could not load bitfile /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin.
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+write_cfgmem failed
+ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors.
+write_cfgmem  -format bin -size 2 -interface SMAPx8 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/src/fim.bin"
+Command: write_cfgmem -format bin -size 2 -interface SMAPx8 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/src/fim.bin
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin
+ERROR: [Bitstream 40-48] File /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin has unknown file format.
+ERROR: [Writecfgmem 68-7] Could not load bitfile /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin.
+0 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+write_cfgmem failed
+ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors.
+reset_run synth_1
+INFO: [Project 1-1160] Copying file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/pcileech_squirrel_top.dcp to /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs synth_1 -jobs 8
+[Thu Jun  6 14:16:22 2024] Launched synth_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Jun  6 14:18:48 2024] Launched impl_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/utils_1/imports/synth_1/pcileech_squirrel_top.dcp with file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/pcileech_squirrel_top.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Jun  6 14:22:55 2024] Launched synth_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log
+[Thu Jun  6 14:22:55 2024] Launched impl_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+Netlist sorting complete. Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.27 . Memory (MB): peak = 10277.629 ; gain = 0.000 ; free physical = 6767 ; free virtual = 11210
+INFO: [Netlist 29-17] Analyzing 3727 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 10409.285 ; gain = 6.250 ; free physical = 6696 ; free virtual = 11110
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 11007.555 ; gain = 0.000 ; free physical = 6053 ; free virtual = 10496
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 11007.555 ; gain = 0.000 ; free physical = 6053 ; free virtual = 10496
+Read PlaceDB: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 11037.625 ; gain = 30.070 ; free physical = 6046 ; free virtual = 10458
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 11037.625 ; gain = 0.000 ; free physical = 6046 ; free virtual = 10458
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00.76 ; elapsed = 00:00:00.75 . Memory (MB): peak = 11047.625 ; gain = 10.000 ; free physical = 6053 ; free virtual = 10465
+Read Physdb Files: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 11047.625 ; gain = 40.070 ; free physical = 6053 ; free virtual = 10465
+Restored from archive | CPU: 2.230000 secs | Memory: 40.401573 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 11047.625 ; gain = 40.070 ; free physical = 6053 ; free virtual = 10465
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 11047.625 ; gain = 0.000 ; free physical = 6053 ; free virtual = 10465
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2135 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 57 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 2024 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 20 instances
+
+open_run: Time (s): cpu = 00:00:46 ; elapsed = 00:00:25 . Memory (MB): peak = 11296.883 ; gain = 1191.152 ; free physical = 5811 ; free virtual = 10241
+open_report: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 11321.680 ; gain = 24.797 ; free physical = 5736 ; free virtual = 10153
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+close_design
+archive_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_ddbridge.xpr.zip -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-44183-jam-Precision-5510' for archiving project
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'bram_pcie_cfgspace_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_43_43_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_49_49_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_34_34_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk1_bar_rdrsp_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_1_1_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_32_32_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_clk1_fifocmd_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_256_32_clk2_comtx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_32_32_clk1_comtx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_129_129_clk1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk2_rxfifo_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_clk2_comrx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_141_141_clk1_bar_wr_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'drom_pcie_cfgspace_writemask_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_74_74_clk1_bar_rd1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'bram_pcie_cfgspace_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_43_43_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_49_49_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_34_34_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk1_bar_rdrsp_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_1_1_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_32_32_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_clk1_fifocmd_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_256_32_clk2_comtx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_32_32_clk1_comtx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_129_129_clk1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk2_rxfifo_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_clk2_comrx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_141_141_clk1_bar_wr_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'drom_pcie_cfgspace_writemask_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_74_74_clk1_bar_rd1_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'bram_pcie_cfgspace'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'bram_pcie_cfgspace'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'drom_pcie_cfgspace_writemask'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'drom_pcie_cfgspace_writemask'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_129_129_clk1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_129_129_clk1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk1_bar_rdrsp'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk1_bar_rdrsp'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk2_rxfifo'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk2_rxfifo'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_141_141_clk1_bar_wr'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_141_141_clk1_bar_wr'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_1_1_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_1_1_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_256_32_clk2_comtx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_256_32_clk2_comtx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_32_32_clk1_comtx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_32_32_clk1_comtx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_32_32_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_32_32_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_34_34'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_34_34'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_43_43_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_43_43_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_49_49_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_49_49_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64_clk1_fifocmd'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64_clk1_fifocmd'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64_clk2_comrx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64_clk2_comrx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_74_74_clk1_bar_rd1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_74_74_clk1_bar_rd1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-1215] Project archived (/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_ddbridge.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:58 ; elapsed = 00:00:41 . Memory (MB): peak = 11477.316 ; gain = 139.059 ; free physical = 5059 ; free virtual = 10072
+archive_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_ddbridge_v2.xpr.zip -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-44183-jam-Precision-5510' for archiving project
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'bram_pcie_cfgspace_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_43_43_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_49_49_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_34_34_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk1_bar_rdrsp_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_1_1_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_32_32_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_clk1_fifocmd_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_256_32_clk2_comtx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_32_32_clk1_comtx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_129_129_clk1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk2_rxfifo_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_clk2_comrx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_141_141_clk1_bar_wr_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'drom_pcie_cfgspace_writemask_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_74_74_clk1_bar_rd1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'bram_pcie_cfgspace_impl_1'...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-133] re-setting run 'fifo_43_43_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_49_49_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_34_34_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk1_bar_rdrsp_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_1_1_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_32_32_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_clk1_fifocmd_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_256_32_clk2_comtx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_32_32_clk1_comtx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_129_129_clk1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk2_rxfifo_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_clk2_comrx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_141_141_clk1_bar_wr_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'drom_pcie_cfgspace_writemask_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_74_74_clk1_bar_rd1_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'bram_pcie_cfgspace'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'bram_pcie_cfgspace'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'drom_pcie_cfgspace_writemask'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'drom_pcie_cfgspace_writemask'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_129_129_clk1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_129_129_clk1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk1_bar_rdrsp'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk1_bar_rdrsp'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk2_rxfifo'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk2_rxfifo'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_141_141_clk1_bar_wr'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_141_141_clk1_bar_wr'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_1_1_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_1_1_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_256_32_clk2_comtx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_256_32_clk2_comtx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_32_32_clk1_comtx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_32_32_clk1_comtx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_32_32_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_32_32_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_34_34'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_34_34'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_43_43_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_43_43_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_49_49_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_49_49_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64_clk1_fifocmd'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64_clk1_fifocmd'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64_clk2_comrx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64_clk2_comrx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_74_74_clk1_bar_rd1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_74_74_clk1_bar_rd1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-1210] Compressing project files and data...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_core_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/pcie_7x/pcie_7x_0_pcie2_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/pcileech-wifi/src/pcileech_squirrel_top.sv:]
+INFO: [Coretcl 2-1215] Project archived (/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_ddbridge_v2.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:01:03 ; elapsed = 00:00:41 . Memory (MB): peak = 11608.312 ; gain = 129.406 ; free physical = 4874 ; free virtual = 10384
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.srcs/utils_1/imports/synth_1/pcileech_squirrel_top.dcp with file /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/pcileech_squirrel_top.dcp
+launch_runs synth_1 -jobs 8
+[Thu Jun  6 17:50:49 2024] Launched synth_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Jun  6 17:53:47 2024] Launched synth_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Jun  6 17:56:29 2024] Launched impl_1...
+Run output will be captured here: /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/runme.log
+archive_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_32bit.xpr.zip -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-44183-jam-Precision-5510' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'bram_pcie_cfgspace_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_43_43_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_49_49_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_34_34_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk1_bar_rdrsp_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_1_1_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_32_32_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_clk1_fifocmd_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_256_32_clk2_comtx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_32_32_clk1_comtx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_129_129_clk1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_134_134_clk2_rxfifo_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_64_64_clk2_comrx_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_141_141_clk1_bar_wr_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'drom_pcie_cfgspace_writemask_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'fifo_74_74_clk1_bar_rd1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'bram_pcie_cfgspace_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_43_43_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_49_49_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_34_34_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk1_bar_rdrsp_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_1_1_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_32_32_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_clk1_fifocmd_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_256_32_clk2_comtx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_32_32_clk1_comtx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_129_129_clk1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_134_134_clk2_rxfifo_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_64_64_clk2_comrx_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_141_141_clk1_bar_wr_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'drom_pcie_cfgspace_writemask_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'fifo_74_74_clk1_bar_rd1_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'bram_pcie_cfgspace'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'bram_pcie_cfgspace'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'drom_pcie_cfgspace_writemask'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'drom_pcie_cfgspace_writemask'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_129_129_clk1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_129_129_clk1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk1_bar_rdrsp'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk1_bar_rdrsp'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_134_134_clk2_rxfifo'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_134_134_clk2_rxfifo'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_141_141_clk1_bar_wr'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_141_141_clk1_bar_wr'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_1_1_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_1_1_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_256_32_clk2_comtx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_256_32_clk2_comtx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_32_32_clk1_comtx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_32_32_clk1_comtx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_32_32_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_32_32_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_34_34'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_34_34'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_43_43_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_43_43_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_49_49_clk2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_49_49_clk2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64_clk1_fifocmd'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64_clk1_fifocmd'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_64_64_clk2_comrx'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_64_64_clk2_comrx'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'fifo_74_74_clk1_bar_rd1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'fifo_74_74_clk1_bar_rd1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'

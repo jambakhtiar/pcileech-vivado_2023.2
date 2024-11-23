@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun 12 13:34:18 2024
+# Process ID: 68935
+# Current directory: /home/jam/Downloads/PCIeSquirrel
+# Command line: vivado
+# Log file: /home/jam/Downloads/PCIeSquirrel/vivado.log
+# Journal file: /home/jam/Downloads/PCIeSquirrel/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 3323.194 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+start_gui
+pwd
+/home/jam/Downloads/PCIeSquirrel
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+ls
+WARNING: [Common 17-259] Unknown Tcl command 'ls' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+build.md
+ip
+readme.md
+src
+vivado_build.tcl
+vivado_generate_project.tcl
+vivado.jou
+vivado.log
+vivado_pid68935.str
+source vivado_generate_project.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [Coretcl 2-1042] No IP was identified for upgrade.
+INFO: Project created:pcileech_squirrel
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+can't use floating-point value as operand of "<<"
+set_property -dict [list \
+  CONFIG.Base_Class_Menu {Multimedia_device} \
+  CONFIG.Class_Code_Base {04} \
+  CONFIG.Class_Code_Sub {02} \
+  CONFIG.Device_ID {000a} \
+  CONFIG.Revision_ID {0c} \
+  CONFIG.Sub_Class_Interface_Menu {Computer_telephony_device} \
+  CONFIG.Subsystem_Vendor_ID {dd01} \
+  CONFIG.Vendor_ID {dd01} \
+] [get_ips pcie_7x_0]
+generate_target all [get_files  /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pcie_7x_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pcie_7x_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pcie_7x_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pcie_7x_0'...
+catch { config_ip_cache -export [get_ips -all pcie_7x_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: pcie_7x_0
+export_ip_user_files -of_objects [get_files /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci]
+launch_runs pcie_7x_0_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: pcie_7x_0
+[Wed Jun 12 13:43:41 2024] Launched pcie_7x_0_synth_1...
+Run output will be captured here: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/pcie_7x_0_synth_1/runme.log
+export_simulation -of_objects [get_files /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] -directory /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.ip_user_files/sim_scripts -ip_user_files_dir /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.ip_user_files -ipstatic_source_dir /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/modelsim} {questa=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/questa} {xcelium=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/xcelium} {vcs=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/vcs} {riviera=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:]
+set_property is_managed false [get_files pcie_7x_0.xci]
+INFO: [IP_Flow 19-8015] Moving outputs for IP 'pcie_7x_0' to '/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0'
+WARNING: [IP_Flow 19-2162] IP 'pcie_7x_0' is locked:
+* IP 'pcie_7x_0' is configured as a user-managed IP. In this mode it is the user's responsibility to manage all IP files.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:]
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_134_134_clk2_rxfifo'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_134_134_clk2_rxfifo
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_1_1_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_1_1_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_134_134_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_134_134_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_43_43_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_43_43_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_129_129_clk1'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_129_129_clk1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'drom_pcie_cfgspace_writemask'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: drom_pcie_cfgspace_writemask
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'bram_pcie_cfgspace'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bram_pcie_cfgspace
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_49_49_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_49_49_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_141_141_clk1_bar_wr'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_141_141_clk1_bar_wr
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_134_134_clk1_bar_rdrsp'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_134_134_clk1_bar_rdrsp
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_74_74_clk1_bar_rd1'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_74_74_clk1_bar_rd1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_32_32_clk2'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_32_32_clk2
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_64'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_64_64
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_64_clk1_fifocmd'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_64_64_clk1_fifocmd
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_34_34'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_34_34
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_256_32_clk2_comtx'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_256_32_clk2_comtx
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_32_32_clk1_comtx'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_32_32_clk1_comtx
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_64_clk2_comrx'...
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: fifo_64_64_clk2_comrx
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_tlps128_bar_controller.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/imports/src/pcileech_pcie_cfg_a7.sv:]
+[Wed Jun 12 13:46:48 2024] Launched bram_pcie_cfgspace_synth_1, fifo_43_43_clk2_synth_1, fifo_34_34_synth_1, fifo_64_64_clk2_comrx_synth_1, fifo_129_129_clk1_synth_1, fifo_32_32_clk1_comtx_synth_1, fifo_64_64_synth_1, fifo_32_32_clk2_synth_1, fifo_49_49_clk2_synth_1, fifo_256_32_clk2_comtx_synth_1, fifo_64_64_clk1_fifocmd_synth_1, fifo_134_134_clk2_synth_1, fifo_1_1_clk2_synth_1, fifo_134_134_clk2_rxfifo_synth_1, fifo_141_141_clk1_bar_wr_synth_1, fifo_134_134_clk1_bar_rdrsp_synth_1, fifo_74_74_clk1_bar_rd1_synth_1, drom_pcie_cfgspace_writemask_synth_1...
+Run output will be captured here:
+bram_pcie_cfgspace_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/bram_pcie_cfgspace_synth_1/runme.log
+fifo_43_43_clk2_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_43_43_clk2_synth_1/runme.log
+fifo_34_34_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_34_34_synth_1/runme.log
+fifo_64_64_clk2_comrx_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk2_comrx_synth_1/runme.log
+fifo_129_129_clk1_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_129_129_clk1_synth_1/runme.log
+fifo_32_32_clk1_comtx_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_32_32_clk1_comtx_synth_1/runme.log
+fifo_64_64_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_synth_1/runme.log
+fifo_32_32_clk2_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_32_32_clk2_synth_1/runme.log
+fifo_49_49_clk2_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_49_49_clk2_synth_1/runme.log
+fifo_256_32_clk2_comtx_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_256_32_clk2_comtx_synth_1/runme.log
+fifo_64_64_clk1_fifocmd_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk1_fifocmd_synth_1/runme.log
+fifo_134_134_clk2_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_134_134_clk2_synth_1/runme.log
+fifo_1_1_clk2_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_1_1_clk2_synth_1/runme.log
+fifo_134_134_clk2_rxfifo_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_134_134_clk2_rxfifo_synth_1/runme.log
+fifo_141_141_clk1_bar_wr_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_141_141_clk1_bar_wr_synth_1/runme.log
+fifo_134_134_clk1_bar_rdrsp_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_134_134_clk1_bar_rdrsp_synth_1/runme.log
+fifo_74_74_clk1_bar_rd1_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_74_74_clk1_bar_rd1_synth_1/runme.log
+drom_pcie_cfgspace_writemask_synth_1: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/drom_pcie_cfgspace_writemask_synth_1/runme.log
+[Wed Jun 12 13:46:58 2024] Launched synth_1...
+Run output will be captured here: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 9754.090 ; gain = 349.688 ; free physical = 2178 ; free virtual = 9673

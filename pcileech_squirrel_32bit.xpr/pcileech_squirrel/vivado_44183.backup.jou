@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun  6 11:35:17 2024
+# Process ID: 44183
+# Current directory: /home/jam
+# Command line: vivado
+# Log file: /home/jam/vivado.log
+# Journal file: /home/jam/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 3233.358 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/ddbridge/ddbridge.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /home/jam/Documents/1.Freelancer/inProgress/DMACard/PCILeech/pcileech-wifi-main/pcileech_squirrel/pcileech_squirrel.xpr
+update_compile_order -fileset sources_1
+close_project
+pwd
+cd /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi
+pwd
+ls
+source vivado_generate_project.tcl -notrace
+source vivado_generate_project_squirrel.tcl -notrace
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+write_cfgmem  -format bin -size 2 -interface SMAPx8 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/fim.bin"
+write_cfgmem  -format bin -size 2 -interface SPIx4 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/fim.bin"
+write_cfgmem  -format bin -size 2 -interface SMAPx8 -loadbit {up 0x00000000 "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.bin" } -file "/home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/src/fim.bin"
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+archive_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_ddbridge.xpr.zip -force -include_local_ip_cache -include_config_settings
+archive_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_ddbridge_v2.xpr.zip -force -include_local_ip_cache -include_config_settings
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+archive_project /home/jam/Documents/1.Freelancer/inProgress/dddbridge/pcileech-wifi/pcileech_squirrel_32bit.xpr.zip -force -include_local_ip_cache -include_config_settings

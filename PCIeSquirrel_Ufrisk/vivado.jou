@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun 12 13:34:18 2024
+# Process ID: 68935
+# Current directory: /home/jam/Downloads/PCIeSquirrel
+# Command line: vivado
+# Log file: /home/jam/Downloads/PCIeSquirrel/vivado.log
+# Journal file: /home/jam/Downloads/PCIeSquirrel/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 3323.194 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+start_gui
+pwd
+ls
+source vivado_generate_project.tcl -notrace
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property -dict [list \
+  CONFIG.Base_Class_Menu {Multimedia_device} \
+  CONFIG.Class_Code_Base {04} \
+  CONFIG.Class_Code_Sub {02} \
+  CONFIG.Device_ID {000a} \
+  CONFIG.Revision_ID {0c} \
+  CONFIG.Sub_Class_Interface_Menu {Computer_telephony_device} \
+  CONFIG.Subsystem_Vendor_ID {dd01} \
+  CONFIG.Vendor_ID {dd01} \
+] [get_ips pcie_7x_0]
+generate_target all [get_files  /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci]
+catch { config_ip_cache -export [get_ips -all pcie_7x_0] }
+export_ip_user_files -of_objects [get_files /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci]
+launch_runs pcie_7x_0_synth_1 -jobs 8
+wait_on_run pcie_7x_0_synth_1
+export_simulation -of_objects [get_files /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] -directory /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.ip_user_files/sim_scripts -ip_user_files_dir /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.ip_user_files -ipstatic_source_dir /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/modelsim} {questa=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/questa} {xcelium=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/xcelium} {vcs=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/vcs} {riviera=/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+set_property is_managed false [get_files pcie_7x_0.xci]
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

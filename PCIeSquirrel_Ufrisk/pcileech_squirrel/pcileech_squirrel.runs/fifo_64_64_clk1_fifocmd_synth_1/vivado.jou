@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun 12 14:03:17 2024
+# Process ID: 7853
+# Current directory: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk1_fifocmd_synth_1
+# Command line: vivado -log fifo_64_64_clk1_fifocmd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_64_64_clk1_fifocmd.tcl
+# Log file: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk1_fifocmd_synth_1/fifo_64_64_clk1_fifocmd.vds
+# Journal file: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/fifo_64_64_clk1_fifocmd_synth_1/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 2889.721 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+source fifo_64_64_clk1_fifocmd.tcl -notrace

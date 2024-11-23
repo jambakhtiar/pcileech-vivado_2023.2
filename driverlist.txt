@@ -1,0 +1,107 @@
+Module                  Size  Used by
+input_leds             12288  0
+joydev                 32768  0
+hid_apple              28672  0
+hid_generic            12288  0
+snd_usb_audio         450560  2
+ddbridge              225280  0
+snd_usbmidi_lib        53248  1 snd_usb_audio
+usbhid                 77824  0
+snd_ump                45056  1 snd_usb_audio
+cxd2099                16384  1 ddbridge
+hid                   180224  3 usbhid,hid_apple,hid_generic
+apple_mfi_fastcharge    16384  0
+dvb_core              184320  1 ddbridge
+mc                     86016  2 snd_usb_audio,dvb_core
+rfcomm                 98304  4
+nvidia_uvm           1802240  0
+cmac                   12288  3
+algif_hash             12288  1
+algif_skcipher         12288  1
+af_alg                 32768  6 algif_hash,algif_skcipher
+bnep                   32768  2
+intel_rapl_msr         20480  0
+intel_rapl_common      40960  1 intel_rapl_msr
+snd_hda_codec_realtek   192512  1
+snd_hda_codec_generic   122880  1 snd_hda_codec_realtek
+snd_hda_codec_hdmi     94208  1
+snd_hda_intel          61440  4
+edac_mce_amd           40960  0
+nvidia_drm             94208  5
+snd_intel_dspcfg       32768  1 snd_hda_intel
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+snd_hda_codec         212992  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
+kvm_amd               208896  0
+nvidia_modeset       1314816  8 nvidia_drm
+binfmt_misc            24576  1
+snd_hda_core          147456  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+nls_iso8859_1          12288  1
+snd_hwdep              20480  2 snd_usb_audio,snd_hda_codec
+kvm                  1409024  1 kvm_amd
+snd_pcm               196608  5 snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,snd_hda_core
+irqbypass              12288  1 kvm
+crct10dif_pclmul       12288  1
+polyval_clmulni        12288  0
+snd_seq_midi           24576  0
+polyval_generic        12288  1 polyval_clmulni
+snd_seq_midi_event     16384  1 snd_seq_midi
+ghash_clmulni_intel    16384  0
+sha256_ssse3           32768  0
+snd_rawmidi            57344  3 snd_seq_midi,snd_usbmidi_lib,snd_ump
+btusb                  73728  0
+sha1_ssse3             32768  0
+nvidia              56815616  379 nvidia_uvm,nvidia_modeset
+btrtl                  32768  1 btusb
+aesni_intel           356352  4
+btbcm                  24576  1 btusb
+btintel                53248  1 btusb
+crypto_simd            16384  1 aesni_intel
+cryptd                 24576  3 crypto_simd,ghash_clmulni_intel
+btmtk                  12288  1 btusb
+asus_ec_sensors        24576  0
+snd_seq               118784  2 snd_seq_midi,snd_seq_midi_event
+rapl                   20480  0
+bluetooth            1081344  34 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+snd_seq_device         16384  4 snd_seq,snd_seq_midi,snd_ump,snd_rawmidi
+snd_timer              49152  2 snd_seq,snd_pcm
+ecdh_generic           16384  2 bluetooth
+ecc                    45056  1 ecdh_generic
+snd                   143360  26 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_ump,snd_pcm,snd_rawmidi
+eeepc_wmi              12288  0
+wmi_bmof               12288  0
+mxm_wmi                12288  0
+drm_kms_helper        274432  1 nvidia_drm
+k10temp                16384  0
+ccp                   135168  1 kvm_amd
+soundcore              16384  1 snd
+mac_hid                12288  0
+sch_fq_codel           24576  2
+msr                    12288  0
+parport_pc             53248  0
+ppdev                  24576  0
+lp                     28672  0
+parport                77824  3 parport_pc,lp,ppdev
+drm                   765952  9 drm_kms_helper,nvidia,nvidia_drm
+efi_pstore             12288  0
+ip_tables              36864  0
+x_tables               69632  1 ip_tables
+autofs4                57344  2
+mfd_aaeon              12288  0
+asus_wmi               73728  2 eeepc_wmi,mfd_aaeon
+crc32_pclmul           12288  0
+video                  73728  2 asus_wmi,nvidia_modeset
+nvme                   57344  2
+ledtrig_audio          12288  2 snd_hda_codec_generic,asus_wmi
+i2c_piix4              28672  0
+sparse_keymap          12288  1 asus_wmi
+r8169                 114688  0
+platform_profile       12288  1 asus_wmi
+xhci_pci               24576  0
+nvme_core             212992  3 nvme
+xhci_pci_renesas       20480  1 xhci_pci
+realtek                36864  1
+nvme_common            28672  1 nvme_core
+wmi                    40960  5 video,asus_wmi,wmi_bmof,mfd_aaeon,mxm_wmi
+test@test-System-Product-Name:~/Documents$ dd
+
+

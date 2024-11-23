@@ -1,0 +1,717 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:13:54 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 68935
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jun 12 13:34:32 PKT 2024
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Ubuntu
+OS Version: 6.5.0-35-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 1
+Screen size: 1920x1080
+Local screen bounds: x = 70, y = 27, width = 1850, height = 1053
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	/tools/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7
+Java executable: 	/tools/Xilinx/Vivado/2023.2/tps/lnx64/jre17.0.7_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	jam
+User home directory: /home/jam
+User working directory: /home/jam/Downloads/PCIeSquirrel
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2023.2
+RDI_DATADIR: /tools/Xilinx/SharedData/2023.2/data:/tools/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: /home/jam/.Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: /home/jam/.Xilinx/Vivado/2023.2/
+Vivado layouts directory: /home/jam/.Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/jam/Downloads/PCIeSquirrel/vivado.log
+Vivado journal file: 	/home/jam/Downloads/PCIeSquirrel/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-68935-jam-Precision-5510
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /tools/Xilinx/Vivado/2023.2
+RDI_BASEROOT: /tools/Xilinx/Vivado
+RDI_BINROOT: /tools/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /tools/Xilinx/SharedData/2023.2/data:/tools/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: /tools/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: /tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu/22:/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vivado/2023.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /tools/Xilinx/Vitis/2023.2/bin:/tools/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/jam/Downloads/PCIeSquirrel:jam-Precision-5510_1718181256_68895
+RDI_SHARED_DATA: /tools/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: /tools/Xilinx/Vivado/2023.2/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2023.2
+XILINX_SDK: /tools/Xilinx/Vitis/2023.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2023.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2023.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,462 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl (Dont Echo) Command: 'rdi::info_commands {cd*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {cd*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,526 MB. GUI used memory: 67 MB. Current time: 6/12/24, 1:34:33 PM PKT
+// Tcl (Dont Echo) Command: 'rdi::info_commands {p*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {pw*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {pwd*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'pwd'
+// Tcl Command: 'pwd'
+// Tcl Message: pwd 
+// Tcl Message: /home/jam/Downloads/PCIeSquirrel 
+// Tcl (Dont Echo) Command: 'rdi::info_commands {ls*}'
+// Elapsed time: 11 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "ls", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'ls'
+// Tcl Command: 'ls'
+// Tcl Message: ls 
+// Tcl Message: build.md ip readme.md src vivado_build.tcl vivado_generate_project.tcl vivado.jou vivado.log vivado_pid68935.str 
+// Tcl (Dont Echo) Command: 'rdi::match_options {source} {notrace}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "source vivado_generate_project.tcl -notrace", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'source vivado_generate_project.tcl -notrace'
+// Tcl Command: 'source vivado_generate_project.tcl -notrace'
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 147 MB (+151253kb) [00:00:30]
+// [Engine Memory]: 1,591 MB (+1516575kb) [00:00:30]
+// [Engine Memory]: 1,684 MB (+14662kb) [00:00:31]
+// WARNING: HEventQueue.dispatchEvent() is taking  1912 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: source vivado_generate_project.tcl -notrace 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,721 MB. GUI used memory: 73 MB. Current time: 6/12/24, 1:34:54 PM PKT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 1,794 MB (+26391kb) [00:00:36]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [Engine Memory]: 1,937 MB (+56417kb) [00:00:39]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 2,088 MB (+56831kb) [00:00:40]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 2,219 MB (+27733kb) [00:00:42]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [GUI Memory]: 156 MB (+2114kb) [00:00:43]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 2,391 MB (+64174kb) [00:00:46]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 2,542 MB (+32557kb) [00:00:49]
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 2,691 MB (+23168kb) [00:00:51]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,671 MB. GUI used memory: 96 MB. Current time: 6/12/24, 1:35:13 PM PKT
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [Engine Memory]: 2,842 MB (+16569kb) [00:00:54]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 175 MB (+11252kb) [00:00:55]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// Tcl Message: INFO: Project created:pcileech_squirrel 
+// Elapsed Time for: 'c.c': 27s
+// [GUI Memory]: 191 MB (+7903kb) [00:00:57]
+// Elapsed time: 27 seconds
+dismissDialog("Tcl Command"); // bq (Tcl Command Progress)
+// Elapsed Time for: 'L.f': 26s
+// Elapsed Time for: 'L.f': 28s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_fifo : pcileech_fifo (pcileech_fifo.sv)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_com : pcileech_com (pcileech_com.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_fifo : pcileech_fifo (pcileech_fifo.sv)]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// [GUI Memory]: 202 MB (+1490kb) [00:01:16]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_tlps128_dst64 : pcileech_tlps128_dst64 (pcileech_pcie_a7.sv)]", 9, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_tlps128_src64 : pcileech_tlps128_src64 (pcileech_pcie_a7.sv)]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 6, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_com : pcileech_com (pcileech_com.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_tlps128_src64 : pcileech_tlps128_src64 (pcileech_pcie_a7.sv)]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv)]", 9, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv)]", 9, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 82 seconds
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 988, 480); // ad (pcileech_tlps128_bar_controller.sv)
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 915, 307); // ad (pcileech_tlps128_bar_controller.sv)
+// Elapsed time: 29 seconds
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 268, 251); // ad (pcileech_tlps128_bar_controller.sv)
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 228, 264); // ad (pcileech_tlps128_bar_controller.sv)
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 988, 71); // ad (pcileech_tlps128_bar_controller.sv)
+// [GUI Memory]: 212 MB (+201kb) [00:04:39]
+// Elapsed time: 84 seconds
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 23, 128); // ad (pcileech_tlps128_bar_controller.sv)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'v'); // ad (pcileech_tlps128_bar_controller.sv)
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 5, 140); // ad (pcileech_tlps128_bar_controller.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,899 MB. GUI used memory: 105 MB. Current time: 6/12/24, 1:40:13 PM PKT
+// Elapsed Time for: 'L.f': 05m:20s
+// Elapsed Time for: 'L.f': 05m:24s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:42s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,904 MB. GUI used memory: 104 MB. Current time: 6/12/24, 1:40:38 PM PKT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:46s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 05m:48s
+// Elapsed Time for: 'L.f': 05m:50s
+// Elapsed time: 46 seconds
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 72, 309); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'c'); // ad (pcileech_tlps128_bar_controller.sv)
+// Elapsed time: 24 seconds
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 44, 168); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'v'); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey(null, null, 'z');
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 38, 170); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'c'); // ad (pcileech_tlps128_bar_controller.sv)
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 423, 171); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'v'); // ad (pcileech_tlps128_bar_controller.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 06m:40s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,942 MB. GUI used memory: 104 MB. Current time: 6/12/24, 1:41:33 PM PKT
+// Elapsed Time for: 'L.f': 06m:44s
+// Elapsed time: 12 seconds
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 71, 254); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'c'); // ad (pcileech_tlps128_bar_controller.sv)
+selectCodeEditor("pcileech_tlps128_bar_controller.sv", 39, 248); // ad (pcileech_tlps128_bar_controller.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_bar_controller.sv", 'v'); // ad (pcileech_tlps128_bar_controller.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 07m:02s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,965 MB. GUI used memory: 104 MB. Current time: 6/12/24, 1:41:58 PM PKT
+// Elapsed Time for: 'L.f': 07m:06s
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcie_7x_0 : pcie_7x_0 (pcie_7x_0.xci)]", 25, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcie_7x_0 : pcie_7x_0 (pcie_7x_0.xci)]", 25, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// WARNING: HEventQueue.dispatchEvent() is taking  1568 ms.
+dismissDialog("Re-customize IP"); // C (Re-customize IP Progress)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "IDs", 1); // cI (PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE)
+setText("Vendor ID", "dd01"); // v (Vendor ID)
+// WARNING: HEventQueue.dispatchEvent() is taking  1360 ms.
+// Elapsed time: 10 seconds
+setText("Device ID", "000a"); // v (Device ID)
+// WARNING: HEventQueue.dispatchEvent() is taking  1141 ms.
+setText("Subsystem Vendor ID", "dd01"); // v (Subsystem Vendor ID)
+// WARNING: HEventQueue.dispatchEvent() is taking  1067 ms.
+// Elapsed time: 17 seconds
+setText("Revision ID", "0c"); // v (Revision ID)
+// WARNING: HEventQueue.dispatchEvent() is taking  1011 ms.
+// Elapsed time: 10 seconds
+selectComboBox("Base Class Menu (Base_Class_Menu)", "Multimedia device", 12); // bN (Base Class Menu (Base_Class_Menu))
+// WARNING: HEventQueue.dispatchEvent() is taking  1125 ms.
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Re-customize IP"); // m (dialog0)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.Base_Class_Menu {Multimedia_device} \   CONFIG.Class_Code_Base {04} \   CONFIG.Class_Code_Sub {02} \   CONFIG.Device_ID {000a} \   CONFIG.Revision_ID {0c} \   CONFIG.Sub_Class_Interface_Menu {Computer_telephony_device} \   CONFIG.Subsystem_Vendor_ID {dd01} \   CONFIG.Vendor_ID {dd01} \ ] [get_ips pcie_7x_0] 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,011 MB. GUI used memory: 120 MB. Current time: 6/12/24, 1:43:33 PM PKT
+// Elapsed Time for: 'L.f': 08m:40s
+// [Engine Memory]: 2,996 MB (+13103kb) [00:09:12]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY)
+// Tcl Message: generate_target all [get_files  /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pcie_7x_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pcie_7x_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pcie_7x_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pcie_7x_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all pcie_7x_0] } 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: pcie_7x_0 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0/pcie_7x_0.xci] 
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs pcie_7x_0_synth_1 -jobs 8 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: pcie_7x_0 
+// Tcl Message: [Wed Jun 12 13:43:41 2024] Launched pcie_7x_0_synth_1... Run output will be captured here: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/pcie_7x_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: RUN_STATUS_CHANGE
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// Elapsed Time for: 'L.f': 08m:52s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 6, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 6, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 3,056 MB. GUI used memory: 122 MB. Current time: 6/12/24, 1:43:53 PM PKT
+// Elapsed time: 12 seconds
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 279, 94); // ad (pcileech_pcie_cfg_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 09m:14s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,107 MB. GUI used memory: 119 MB. Current time: 6/12/24, 1:44:08 PM PKT
+// [Engine Memory]: 3,547 MB (+419968kb) [00:09:47]
+// Elapsed Time for: 'L.f': 09m:18s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 82 seconds
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 269, 202); // ad (pcileech_pcie_cfg_a7.sv)
+typeControlKey((HResource) null, "pcileech_pcie_cfg_a7.sv", 'v'); // ad (pcileech_pcie_cfg_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 10m:38s
+// Elapsed Time for: 'L.f': 10m:42s
+// Elapsed time: 43 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "set_property is_managed false [get_files pcie_7x_0.xci]", true); // h.b (RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE)
+// Tcl Command: 'set_property is_managed false [get_files pcie_7x_0.xci]'
+// Tcl Command: 'set_property is_managed false [get_files pcie_7x_0.xci]'
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property is_managed false [get_files pcie_7x_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-8015] Moving outputs for IP 'pcie_7x_0' to '/home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.srcs/sources_1/ip/pcie_7x_0' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:26s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv)]", 10); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_squirrel_top (pcileech_squirrel_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 11m:30s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,562 MB. GUI used memory: 131 MB. Current time: 6/12/24, 1:46:23 PM PKT
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Launch Runs"); // f (dialog2)
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 225 MB (+2172kb) [00:12:20]
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 237 MB (+1416kb) [00:12:20]
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 249 MB (+32kb) [00:12:21]
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 266 MB (+4140kb) [00:12:23]
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [GUI Memory]: 292 MB (+12978kb) [00:12:24]
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 3,629 MB. GUI used memory: 147 MB. Current time: 6/12/24, 1:46:49 PM PKT
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 4,069 MB (+362146kb) [00:12:31]
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 310 MB (+3887kb) [00:12:36]
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 22 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (RDIResource.ProgressDialog_BACKGROUND)
+// TclEventType: RUN_MODIFY
+// 'i' command handler elapsed time: 25 seconds
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Wed Jun 12 13:46:58 2024] Launched synth_1... Run output will be captured here: /home/jam/Downloads/PCIeSquirrel/pcileech_squirrel/pcileech_squirrel.runs/synth_1/runme.log 
+// [GUI Memory]: 327 MB (+1986kb) [00:12:37]
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 9754.090 ; gain = 349.688 ; free physical = 2178 ; free virtual = 9673 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'C.c': 23s
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10671 ms. Increasing delay to 3000 ms.
+dismissDialog("Starting Design Runs"); // bq (Starting Design Runs Progress)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 12); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 12m:08s
+// Elapsed Time for: 'L.f': 12m:10s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, pcileech_cfgspace.coe]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, pcileech_cfgspace.coe]", 15, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 4,127 MB. GUI used memory: 145 MB. Current time: 6/12/24, 1:47:09 PM PKT
+// WARNING: HTimer (a Update Status Timer) is taking 2309ms to process. Increasing delay to 3000 ms.

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul  3 17:34:13 2024
+# Process ID: 94481
+# Current directory: /home/jam/Downloads/PCILeech_Italian/project/project1/pcileech_squirrel
+# Command line: vivado
+# Log file: /home/jam/Downloads/PCILeech_Italian/project/project1/pcileech_squirrel/vivado.log
+# Journal file: /home/jam/Downloads/PCILeech_Italian/project/project1/pcileech_squirrel/vivado.jou
+# Running On: jam-Precision-5510, OS: Linux, CPU Frequency: 3200.383 MHz, CPU Physical cores: 4, Host memory: 16425 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/jam/Downloads/PCILeech_Italian/project/project1/pcileech_squirrel/pcileech_squirrel.xpr
+update_compile_order -fileset sources_1
+save_project_as project_1 /home/jam/Downloads/PCILeech_Italian/project/project1/pcileech_squirrel/project_1 -force
